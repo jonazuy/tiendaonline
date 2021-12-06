@@ -196,3 +196,31 @@ footer{
     padding:80px;
 }
 
+@media (max-width: 600px){
+
+    .formulario{
+        display: block;
+        
+       
+      
+    }
+    .formul{
+     width:100%;
+     margin: 0 auto;
+    }
+    
+    .formulario .contactoTexto{
+        display: block;
+        align-content: center;
+        
+    }
+    
+    .center{
+        font-size: $fuentePrincipal;
+      font-size: 20px;
+      align-items: center;
+
+        
+    }
+
+}    
