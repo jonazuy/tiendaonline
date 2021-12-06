@@ -1,0 +1,24 @@
+
+.navbar{
+    background: rgb(218, 218, 218);
+
+    .a:hover{
+   background-color: azure;
+}
+}
+
+
+.collapse {
+    justify-content: center;
+}
+/*  elimina acciones de useragentStylsheet  */
+a:-webkit-any-link{
+    text-decoration: none;}
+
+    .navbar>.container-fluid{
+        justify-content: flex-end;
+    }
+
+    .navbar-nav{
+        align-items: center;
+    }

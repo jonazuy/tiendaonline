@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-tienda",
+  "version": "1.0.0",
+  "description": "proyecto de prueba ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x  \"npm run build-css\""  
+  },
+  "author": "jneutron",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

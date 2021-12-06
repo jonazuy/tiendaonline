@@ -1,0 +1,23 @@
+/* menu Secundario */
+#menuFooter{ 
+    background-color: rgb(218, 218, 218);
+    margin: 10px 0; 
+
+ li{
+     list-style: none;
+     justify-content: center; 
+     
+   }
+    a{
+         text-decoration: none;
+         padding: 6px;
+         font-family:'Inter', sans-serif;
+    }    
+}
+
+#menuFooter{
+    display: grid;
+    padding-top: 10px;
+    grid-column: 2;
+    grid-row: 1;   
+}
