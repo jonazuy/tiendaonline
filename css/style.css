@@ -91,11 +91,7 @@ ul {
 
 @media (min-width: 767px) {
   .grid {
-    grid-template-columns: repeat(5, 1fr); }
-  .logo img {
-    display: flex;
-    justify-content: center;
-    width: 100%; } }
+    grid-template-columns: repeat(5, 1fr); } }
 
 /* Productos */
 .producto {
