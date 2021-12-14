@@ -23,7 +23,7 @@ body {
   background-color: #cccccc;
   line-height: 1.5; }
 
-.logo img {
+.logo {
   display: flex;
   justify-content: center;
   width: 100%; }
@@ -91,7 +91,11 @@ ul {
 
 @media (min-width: 767px) {
   .grid {
-    grid-template-columns: repeat(5, 1fr); } }
+    grid-template-columns: repeat(5, 1fr); }
+  .logo img {
+    display: flex;
+    justify-content: center;
+    width: 100%; } }
 
 /* Productos */
 .producto {
